@@ -1,0 +1,66 @@
+/*****************************/
+/* ヘッダー*/
+/*****************************/
+
+/* ロゴ */
+.el_header_logo {
+  left: 20px;
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+/* ハンバーガーメニュー */
+.el_humburger_menu {
+  width: 30px;
+  position:fixed;
+  border: none;
+  cursor: pointer;
+}
+
+.el_humburger_menu span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+/* ハンバーガーメニューをバツ印に変化するスタイル */
+.el_humburger_menu.is_active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.el_humburger_menu.is_active span:nth-child(2) {
+  opacity: 0;
+}
+.el_humburger_menu.is_active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+/*****************************/
+/* サイドバー*/
+/*****************************/
+/* サイドバーメニューリスト */
+.el_sideBar_list {
+  list-style: none;
+  padding: 20px;
+}
+
+
+/*****************************/
+/* メイン*/
+/*****************************/
+
+/* セクションタイトル */
+.el_sectionTitle{
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.el_newProduct_img {
+  width: 100%;
+  height: 100%;
+}
