@@ -2,19 +2,22 @@
 
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <!-- css -->
     <link rel="stylesheet" href="css/block.css" />
     <link rel="stylesheet" href="css/element.css" />
     <link rel="stylesheet" href="css/base.css" />
     <!-- css slick-->
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/common.js"></script>
     <!-- js slick-->
-     <script src="slick/slick.min.js"></script>
+    <script src="slick/slick.min.js"></script>
   </head>
   <body>
     <header>
@@ -38,9 +41,9 @@
       </div>
     </header>
     <nav class="bl_sideBar js_sideBarHandler">
-        <ul class="el_sideBar_list">
-          <li class="el_sideBar_item"><a href="#">TOPへ</a></li>
-        </ul>
+      <ul class="el_sideBar_list">
+        <li class="el_sideBar_item"><a href="#">TOPへ</a></li>
+      </ul>
     </nav>
     <main>
       <div class="bl_sectionTitle_wrapper">
@@ -48,48 +51,28 @@
       </div>
       <!-- 新着商品リスト -->
       <div class="bl_newProductsList">
-        <div class="bl_newProduct" href="#">
-          <img
-            class="el_newProduct_img"
-            src=""
-            alt="例:商品画像"
-          />
+        <div class="bl_newProductWrapper" href="#">
+          <img class="el_newProduct_img" src="" alt="例:商品画像" />
           <div class="el_newProduct_name">サンプル商品名</div>
           <div class="el_newProduct_price">¥0</div>
         </div>
-        <div class="bl_newProduct" href="#">
-          <img
-            class="el_newProduct_img"
-            src=""
-            alt="例:商品画像"
-          />
+        <div class="bl_newProductWrapper" href="#">
+          <img class="el_newProduct_img" src="" alt="例:商品画像" />
           <div class="el_newProduct_name">サンプル商品名</div>
           <div class="el_newProduct_price">¥0</div>
         </div>
-        <div class="bl_newProduct" href="#">
-          <img
-            class="el_newProduct_img"
-            src=""
-            alt="例:商品画像"
-          />
+        <div class="bl_newProductWrapper" href="#">
+          <img class="el_newProduct_img" src="" alt="例:商品画像" />
           <div class="el_newProduct_name">サンプル商品名</div>
           <div class="el_newProduct_price">¥0</div>
         </div>
-        <div class="bl_newProduct" href="#">
-          <img
-            class="el_newProduct_img"
-            src=""
-            alt="例:商品画像"
-          />
+        <div class="bl_newProductWrapper" href="#">
+          <img class="el_newProduct_img" src="" alt="例:商品画像" />
           <div class="el_newProduct_name">サンプル商品名</div>
           <div class="el_newProduct_price">¥0</div>
         </div>
-        <div class="bl_newProduct">
-          <img
-            class="el_newProduct_img"
-            src=""
-            alt="例:商品画像"
-          />
+        <div class="bl_newProductWrapper">
+          <img class="el_newProduct_img" src="" alt="例:商品画像" />
           <div class="el_newProduct_name">サンプル商品名</div>
           <div class="el_newProduct_price">¥0</div>
         </div>
@@ -99,23 +82,34 @@
         <h3 class="el_sectionTitle">カテゴリ一覧</h3>
       </div>
       <!-- カテゴリ一覧 -->
-      <div class="bl_categoryWrapp">
-        <a class="bl_categoryItem" href="#">
-
-          <div class="el_categoryItem_name">サンプルカテゴリ名</div>
-        </a>
-        <a class="bl_categoryItem" href="#">
-
-          <div class="el_categoryItem_name">サンプルカテゴリ名</div>
-        </a>
-        <a class="bl_categoryItem" href="#">
-
-          <div class="el_categoryItem_name">サンプルカテゴリ名</div>
-        </a>
-
+      <div class="bl_categoryList">
+        <ul>
+          <li>
+            <a class="bl_categoryWrapper" href="#">
+              <div class="el_category">サンプルカテゴリ名</div>
+            </a>
+          </li>
+          <li>
+            <a class="bl_categoryWrapper" href="#">
+              <div class="el_category">サンプルカテゴリ名</div>
+            </a>
+          </li>
+          <li>
+            <a class="bl_categoryWrapper" href="#">
+              <div class="el_category">サンプルカテゴリ名</div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </main>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>

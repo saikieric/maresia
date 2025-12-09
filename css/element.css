@@ -13,7 +13,7 @@
 /* ハンバーガーメニュー */
 .el_humburger_menu {
   width: 30px;
-  position:fixed;
+  position: fixed;
   border: none;
   cursor: pointer;
 }
@@ -38,7 +38,6 @@
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-
 /*****************************/
 /* サイドバー*/
 /*****************************/
@@ -48,19 +47,22 @@
   padding: 20px;
 }
 
-
 /*****************************/
 /* メイン*/
 /*****************************/
 
 /* セクションタイトル */
-.el_sectionTitle{
+.el_sectionTitle {
   display: flex;
   justify-content: center;
   font-size: 24px;
 }
 
 .el_newProduct_img {
-  width: 100%;
+  margin: 0 auto;
   height: 100%;
+  width: 200px;
+  background-color: yellowgreen;
+  min-height: 200px;
+  min-width: 200px;
 }
