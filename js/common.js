@@ -7,28 +7,29 @@ $(document).ready(function () {
 
   //スリック処理
   $(".bl_newProductsList").slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
+    infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
     responsive: [
       {
-        breakpoint: 1024, // 768〜1023px以下のサイズに適用
+        breakpoint: 1350, // 767〜1350px以下のサイズに適用
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3
         },
       },
       {
         breakpoint: 768, // 480〜767px以下のサイズに適用
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2
         },
       },
       {
         breakpoint: 480, // 〜479px以下のサイズに適用
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1
         },
       },
     ],

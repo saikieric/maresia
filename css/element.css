@@ -60,9 +60,10 @@
 
 .el_newProduct_img {
   margin: 0 auto;
-  height: 100%;
-  width: 200px;
+  width: 100%;
   background-color: yellowgreen;
   min-height: 200px;
+  max-height: 300px;
   min-width: 200px;
+  max-width : 300px;
 }
