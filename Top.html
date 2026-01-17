@@ -6,14 +6,28 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
     />
+    <!-- favicon -->
+    <link rel="icon" href="ico/favicon.ico" type="image/x-icon" />
     <!-- css -->
     <link rel="stylesheet" href="css/block.css" />
     <link rel="stylesheet" href="css/element.css" />
     <link rel="stylesheet" href="css/base.css" />
     <!-- css slick-->
     <!-- slickのCSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -22,7 +36,7 @@
         <a class="" href="Top.html">
           <img
             class="el_header_logo"
-            src="img/Maresia_logo_kari.png"
+            src="img/Maresia_header_logo.png"
             alt="logo"
           />
         </a>
@@ -37,10 +51,32 @@
       </div>
     </header>
     <nav class="bl_sideBar js_sideBarHandler">
-      <ul class="el_sideBar_list">
-        <li class="el_sideBar_item"><a href="#">TOPへ</a></li>
-      </ul>
+      <div class="el_sideBar_list">
+          <a class="el_sideBar_item" href="https://maresiabeauty.com/">TOP</a>
+          <a class="el_sideBar_item" href="https://maresiabeauty.com/entry"
+            >新規会員登録</a
+          >
+          <a
+            class="el_sideBar_item"
+            href="https://maresiabeauty.com/mypage/favorite"
+            >お気に入り</a
+          >
+          <a
+            class="el_sideBar_item"
+            href="https://maresiabeauty.com/mypage/login"
+            >ログイン</a
+          >
     </nav>
+    <div class="bl_introductionWrapper">
+      <div class="bl_introduction">
+        <h2 class="el_introductionTitle">MaresiaBeautyへようこそ</h2>
+        <p class="el_introductionText">
+          MaresiaBeautyは、美容製品を専門とするオンラインショップです。<br />
+          ブラジル製の香水、ボディクリーム等を取り扱っています。<br />
+          お客様の美しさを引き出すお手伝いをいたします。
+        </p>
+      </div>
+    </div>
     <main>
       <div class="bl_sectionTitle_wrapper">
         <h3 class="el_sectionTitle">新着商品</h3>
@@ -83,35 +119,57 @@
           <div class="el_newProduct_price">¥0</div>
         </div>
       </div>
-
-      <div class="bl_sectionTitle_wrapper">
-        <h3 class="el_sectionTitle">カテゴリ一覧</h3>
-      </div>
       <!-- カテゴリ一覧 -->
       <div class="bl_categoryList">
-        <ul>
-          <li>
-            <a class="bl_categoryWrapper" href="#">
-              <div class="el_category">サンプルカテゴリ名</div>
-            </a>
-          </li>
-          <li>
-            <a class="bl_categoryWrapper" href="#">
-              <div class="el_category">サンプルカテゴリ名</div>
-            </a>
-          </li>
-          <li>
-            <a class="bl_categoryWrapper" href="#">
-              <div class="el_category">サンプルカテゴリ名</div>
-            </a>
-          </li>
-        </ul>
+        <a class="bl_allCategoryWrapper" href="#">
+          <div class="el_category">すべてのカテゴリ名で検索する</div>
+        </a>
+
+        <a class="bl_categoryWrapper" href="#">
+          <div class="el_category">サンプルカテゴリ名</div>
+        </a>
+
+        <a class="bl_categoryWrapper" href="#">
+          <div class="el_category">サンプルカテゴリ名</div>
+        </a>
+
+        <a class="bl_categoryWrapper" href="#">
+          <div class="el_category">サンプルカテゴリ名</div>
+        </a>
+
+        <a class="bl_categoryWrapper" href="#">
+          <div class="el_category">サンプルカテゴリ名</div>
+        </a>
       </div>
     </main>
+    <footer>
+      <div class="bl_footer_links">
+        <a class="el_footer_link" href="#">利用規約</a>
+        <a class="el_footer_link" href="#">プライバシーポリシー</a>
+        <a class="el_footer_link" href="#">特定商取引法に基づく表記</a>
+        <a class="el_footer_link" href="#">お問い合わせ</a>
+      </div>
+      <img
+        class="el_footer_logo"
+        src="img/maresia_footer_img.png"
+        alt="footer_logo"
+      />
+      <p class="el_footer_copyright">© MaresiaBeauty</p>
+    </footer>
     <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- slickのJavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- js -->
     <script src="js/common.js"></script>
   </body>

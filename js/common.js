@@ -5,31 +5,32 @@ $(document).ready(function () {
     $(".js_sideBarHandler").toggleClass("is_active");
   });
 
-  //スリック処理
+  //新着商品スリック処理
   $(".bl_newProductsList").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows: false,
     dots: true,
     responsive: [
       {
-        breakpoint: 1350, // 767〜1350px以下のサイズに適用
+        breakpoint: 1350, //
         settings: {
-          slidesToShow: 3
+          slidesToShow: 3,
         },
       },
       {
-        breakpoint: 768, // 480〜767px以下のサイズに適用
+        breakpoint: 950, //
         settings: {
-          slidesToShow: 2
+          slidesToShow: 2,
         },
       },
       {
-        breakpoint: 480, // 〜479px以下のサイズに適用
+        breakpoint: 580, //
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
         },
       },
     ],
